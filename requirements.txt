@@ -1,0 +1,20 @@
+# CandorHealth - Adversarial Validation Infrastructure
+# Core dependencies
+
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Signal processing
+wfdb>=4.1.0          # PhysioNet/MIT-BIH data access
+heartpy>=1.2.7       # Heart rate analysis (for algorithm failure testing)
+
+# Dashboard
+streamlit>=1.29.0
+
+# Future: API & Infrastructure
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# google-cloud-storage>=2.10.0
+# google-cloud-bigquery>=3.11.0
